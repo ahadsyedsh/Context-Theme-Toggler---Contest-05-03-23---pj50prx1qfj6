@@ -10,7 +10,7 @@ const ThemeProvider = (props) =>{
     };
 
     return (
-        <ThemeContext.provider value={{...state,updateContext}}>
+        <ThemeContext.Provider value={{...state,updateContext}}>
         {props.children}
 
         </ThemeContext.Provider>
